@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #7f00ff;
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 1;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+.signup-form {
+  position: absolute;
+  /* background-color: #dbd5d5; */
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+  width: 450px;
+  height: 450px;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+  z-index: 24;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+.signup-form h2 {
+  color: #636363;
+  margin: 0 0 15px;
+  position: relative;
+  text-align: center;
+}
+.signup-form h2:before,
+.signup-form h2:after {
+  content: '';
+  height: 2px;
+  width: 30%;
+  background: #d4d4d4;
+  position: absolute;
+  top: 50%;
+  z-index: 26;
+}
+.signup-form h2:before {
+  left: 0;
+}
+.signup-form h2:after {
+  right: 0;
+}
+.signup-form .hint-text {
+  color: #999;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.signup-form form {
+  color: #999;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  background: #f2f3f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+.signup-form .form-group {
+  margin-bottom: 20px;
+}
+.signup-form input[type='checkbox'] {
+  margin-top: 3px;
+}
+.signup-form .btn {
+  font-size: 16px;
+  font-weight: bold;
+  min-width: 140px;
+  outline: none !important;
+}
+.signup-form .row div:first-child {
+  padding-right: 10px;
+}
+.signup-form .row div:last-child {
+  padding-left: 10px;
+}
+.signup-form a {
+  color: #fff;
+  text-decoration: underline;
+}
+.signup-form a:hover {
+  text-decoration: none;
+}
+.signup-form form a {
+  color: #5cb85c;
+  text-decoration: none;
+}
+.signup-form form a:hover {
+  text-decoration: underline;
+}
+
+#signInLink {
+  margin-left: 34%;
+  font-size: 14px;
+}
+.temp {
+  background: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+.btn-grad {
+  background-image: linear-gradient(
+    89.7deg,
+    rgba(0, 32, 95, 1) 2.8%,
+    rgba(132, 53, 142, 1) 97.8%
+  );
+  width: 40%;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-left: 28%;
+}
+.btn-grad:hover {
+  background-image: linear-gradient(to right, #363795, #005c97);
+}
